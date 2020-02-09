@@ -2,7 +2,7 @@
 body{
             text-align: center;
             background:url(2765040.jpg);
-            background-size: contain;
+            background-size: cover;
             width: 100%;
             height:100%;
             padding: 1vw;
@@ -13,12 +13,12 @@ body{
          padding: 2vw;
          margin-top: 2vw;
          box-sizing: border-box;
-         border-radius: 1vw;
-         width: 65vw;
-         
-         background: url(logocsiCenternew.png) left top;
+         border-radius: 0.5vw;
+         width: 60vw;
          background-size: contain;
          background-color: white;
+         border-top: o.5vw solid #bcbbbb;
+         box-shadow: 0 0 20px;
  }
  .btn-lg{
          letter-spacing: 0.5vw;
@@ -26,33 +26,37 @@ body{
  }
  .hea{
          letter-spacing: 1vw;
-         padding: 1vw;
          box-sizing: border-box;
-         width: 80vw;
-         font-size: 400%;
+         width: 60vw;
+         font-size: 350%;
+         justify-content: center;  
          display: flex;
-         justify-content: center;     
+         width: 100%;
+         height: 100%; 
           
  }
+ .logo{
+         height: 50px;
+         width: 50px;
+         left: 0;
+ }
 
- .hea img{
-         width: 6vw;
-         height: 6vw;
-         top: 12vw;
-         left: 16%;
-         top: 25%;
+ .logo img{
+         width: 40px;
+         height: 40px;
  }
  .form-control{
          border:none;
-         border-bottom: 0.1vw solid black;
+         border-bottom: 0.1vw solid #bcbbbb;
  }
  .main-con{
-        background:linear-gradient(180deg,rgb( 234, 159, 68 ),rgb( 234, 159, 68 ),rgb( 237, 240, 247));
-         width: 80vw;
+        background:rgb( 234, 159, 68 );
+         width: 60vw;
          padding: 0%;
          margin-bottom: 4vw;
          margin-top: 6vw;
-         padding-bottom: 5vw;
+         /* padding-bottom: 5vw; */
          box-shadow: 0 0 20px;
+         border-radius: 0.5vw;
 
  }
