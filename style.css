@@ -1,12 +1,13 @@
 
 body{
             text-align: center;
-            background:url(2850891.jpg);
+            background:url(2765040.jpg);
             background-size: contain;
             width: 100%;
             height:100%;
             padding: 1vw;
             font-family: Georgia, 'Times New Roman', Times, serif;
+            position: relative; 
  }
  .myform{
          padding: 2vw;
@@ -14,6 +15,9 @@ body{
          box-sizing: border-box;
          border-radius: 1vw;
          width: 65vw;
+         
+         background: url(logocsiCenternew.png) left top;
+         background-size: contain;
          background-color: white;
  }
  .btn-lg{
@@ -26,7 +30,17 @@ body{
          box-sizing: border-box;
          width: 80vw;
          font-size: 400%;
-         
+         display: flex;
+         justify-content: center;     
+          
+ }
+
+ .hea img{
+         width: 6vw;
+         height: 6vw;
+         top: 12vw;
+         left: 16%;
+         top: 25%;
  }
  .form-control{
          border:none;
