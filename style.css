@@ -1,31 +1,32 @@
 
+@import url(//db.onlinewebfonts.com/c/cf66d0978fea9f72cbd1604f28e7aadd?family=Equinox);
+@font-face {font-family: "Equinox"; src: url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.eot"); src: url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.svg#Equinox") format("svg"); } 
 body{
             text-align: center;
-            background:url(2765040.jpg);
+            background:url(Sun-Tornado.svg);
             background-size: cover;
             width: 100%;
             height:100%;
             padding: 1vw;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family:"Equinox" ;
             position: relative; 
  }
  .myform{
          padding: 2vw;
-         margin-top: 2vw;
+         margin-top: 1.5vw;
          box-sizing: border-box;
-         border-radius: 0.5vw;
+         /* border-radius: 0.5vw; */
          width: 60vw;
          background-size: contain;
          background-color: white;
          border-top: o.5vw solid #bcbbbb;
-         box-shadow: 0 0 20px;
+         /* box-shadow: 0 0 20px; */
  }
  .btn-lg{
          letter-spacing: 0.5vw;
          font-size: 100%;
  }
  .hea{
-         letter-spacing: 1vw;
          box-sizing: border-box;
          width: 60vw;
          font-size: 350%;
@@ -33,6 +34,7 @@ body{
          display: flex;
          width: 100%;
          height: 100%; 
+         
           
  }
  .logo{
@@ -50,7 +52,7 @@ body{
          border-bottom: 0.1vw solid #bcbbbb;
  }
  .main-con{
-        background:rgb( 234, 159, 68 );
+        /* background:rgb( 234, 159, 68 ); */
          width: 60vw;
          padding: 0%;
          margin-bottom: 4vw;
@@ -60,3 +62,33 @@ body{
          border-radius: 0.5vw;
 
  }
+ .headi{
+         display: flex;
+         line-height: 2;
+ }
+ @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="hea"] {
+                font-size: 1.5em;
+                letter-spacing: 1vw;
+                box-sizing: border-box;
+                width: 60vw;
+                justify-content: center;  
+                display: flex;
+                height: 100%; 
+        }
+        [class*="logo"]{
+                height: 50px;
+                width: 50px;
+        }
+        [class*="headi"]{
+                font-size: 1.5em;
+        }
+        .logo img {
+                width: 40px;
+                height: 40px;
+        }
+        .le {
+                font-size: 1.3vw;
+        }
+ }      
