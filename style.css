@@ -3,7 +3,7 @@
 @font-face {font-family: "Equinox"; src: url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.eot"); src: url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.svg#Equinox") format("svg"); } 
 body{
             text-align: center;
-            background:url(Sun-Tornado.svg);
+            background:url(Sun-Tornado.svg) no-repeat;
             background-size: cover;
             width: 100%;
             height:100%;
@@ -60,6 +60,7 @@ body{
          /* padding-bottom: 5vw; */
          box-shadow: 0 0 20px;
          border-radius: 0.5vw;
+         background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15));
 
  }
  .headi{
@@ -72,7 +73,7 @@ body{
                 font-size: 1.5em;
                 letter-spacing: 1vw;
                 box-sizing: border-box;
-                width: 60vw;
+                width: 80vw;
                 justify-content: center;  
                 display: flex;
                 height: 100%; 
@@ -90,5 +91,11 @@ body{
         }
         .le {
                 font-size: 1.3vw;
+        }
+        .main-con{
+                width: 80vw;
+        }
+        .myform{
+                width: 80vw;
         }
  }      
