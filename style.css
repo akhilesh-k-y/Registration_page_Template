@@ -1,4 +1,7 @@
 
+@import url(//db.onlinewebfonts.com/c/cf66d0978fea9f72cbd1604f28e7aadd?family=Equinox);
+/* @font-face {font-family: "Equinox"; src: url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.eot"); src: url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf66d0978fea9f72cbd1604f28e7aadd.svg#Equinox") format("svg"); }  */
+
 body{
             text-align: center;
             background:url(newback.svg) no-repeat;
@@ -7,26 +10,21 @@ body{
             height:100%;
             padding: 1vw;
             font-family:"Equinox" ;
-            position: relative; 
  }
  .myform{
          padding: 2vw;
-         /* margin-top: 1.5vw; */
          box-sizing: border-box;
-         /* border-radius: 0.5vw; */
          width: 60vw;
          background-size: contain;
          background-color: #FBFCFE;
          border-top: o.5vw solid #bcbbbb;
-         /* box-shadow: 0 0 20px; */
  }
  .btn-lg{
          letter-spacing: 0.5vw;
          font-size: 100%;
  }
  .hea{  
-         background: url("14755 [Converted]-01(1).svg");
-         background-size: cover;
+        background-color: rgb(235, 235, 235);
          box-sizing: border-box;
          width: 60vw;
          font-size: 350%;
@@ -39,14 +37,17 @@ body{
           
  }
  .logo{
-         height: 50px;
-         width: 50px;
-         left: 0;
+         height: 100%;
+         width: 50px; 
+         position: relative;
  }
 
  .logo img{
          width: 40px;
          height: 40px;
+         position: absolute;
+         left: 0;
+         top: 33%;
  }
  .form-control{
          border:none;
