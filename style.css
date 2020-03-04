@@ -1,5 +1,4 @@
 
-
 body{
             text-align: center;
             background:url(newback.svg) no-repeat;
@@ -59,7 +58,7 @@ body{
          margin-bottom: 4vw;
          margin-top: 6vw;
          /* padding-bottom: 5vw; */
-         box-shadow: 0 0 20px;
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
          border-radius: 0.5vw;
          background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15));
 
